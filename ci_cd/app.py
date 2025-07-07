@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+ci_cd API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="ci_cd",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://ci_cd.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "HandsomeBoy-happy",
+        "url": "http://ci_cd.com/contact/",
+        "email": "HandsomeBoy-happy@ci_cd.com",
     },
     license_info={
         "name": "The Unlicense",

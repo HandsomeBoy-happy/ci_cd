@@ -1,8 +1,8 @@
 [run]
-source = project_name
+source = ci_cd
 
 [report]
 omit =
     */python?.?/*
     */site-packages/nose/*
-    project_name/__main__.py
+    ci_cd/__main__.py
